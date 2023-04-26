@@ -1,0 +1,184 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #222;
+    padding: 3px;
+    line-height: 3;
+
+ 
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.sidebar a {
+  display: block;
+}
+
+a:hover {
+  background-color:crimson;
+}
+
+
+
+h1 {
+    line-height: 0.23;
+    margin-top: 1;
+  }
+
+header h1 {
+    font-size: 36px;
+}
+
+header {
+    margin-bottom: 10px;
+    background-color: #222;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.main-content 
+{
+    margin-left: 200px;
+    padding: 30px;
+}
+
+
+
+.main-content p 
+{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+p {
+  margin-top: 0;
+  font-style: italic;
+}
+
+h2 {
+      margin-bottom: 0;
+}
+
+  
+  .aboutme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding: 50px;
+    margin-left: 200px;
+
+  }
+  
+  .column {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 75%;
+  }
+  
+.longtext {
+    padding: 20px;
+    margin-left: 200px;
+}
+  
+
+
+footer {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0px;
+    margin-left: 15px;
+
+}
+
+
+#FooterBred
+{
+    width: 100%;
+    background-color: #222;
+    color: white;
+    letter-spacing: 1px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px 300px;
+    box-sizing: border-box;
+    
+    bottom: 0;
+
+}
+
+@media(max-width: 1350px)
+{
+    #FooterBred
+    {
+        padding: 15px 200px;
+    }
+}
+@media(max-width: 1166px)
+{
+    #FooterBred
+    {
+        padding: 15px 100px;
+    }
+}
+@media(max-width: 950px)
+{
+    #FooterBred
+    {
+        padding: 15px 50px;
+    }
+}
+@media(max-width: 850px)
+{
+    #FooterBred
+    {
+        font-size: 13px;
+    }
+    #Footer2
+    {
+        font-size: 10px;
+    }
+}
+@media(max-width: 750px)
+{
+    #FooterBred
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 15px 100px;
+    }
+    #Footer2
+    {
+        padding: 15px 20px;
+    }
+}
+@media(max-width: 540px)
+{
+    #Footer2
+    {
+        padding: 0 25px;
+    }
+}
