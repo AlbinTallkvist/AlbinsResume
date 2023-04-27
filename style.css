@@ -47,6 +47,9 @@ header {
     color: #fff;
     padding: 1px;
     text-align: center;
+    margin-left: 200px;
+    
+
     
 }
 
@@ -97,11 +100,6 @@ h2 {
     max-width: 75%;
   }
   
-.longtext {
-    padding: 20px;
-    margin-left: 200px;
-}
-  
 
 
 footer {
@@ -109,6 +107,7 @@ footer {
     margin-bottom: 0;
     padding: 0px;
     margin-left: 15px;
+    
 
 }
 
@@ -181,4 +180,58 @@ footer {
     {
         padding: 0 25px;
     }
+}
+
+
+.aboutz {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    font-size: medium;
+    margin-left: 200px;
+}
+
+
+.aboutpic {
+    padding: 20px;
+    place-items: center;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.textbish {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+
+  }
+    
+  .educationtextss {
+    flex: 1;
+  }
+
+
+
+  .educationzz {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    place-items: center;
+    font-size: medium;
+    margin-left: 200px;
+    text-align: center;
+
+}
+
+
+h4 {
+    text-align: center;
+    margin-left: 200px;
+    font-size: 180%
+
 }
